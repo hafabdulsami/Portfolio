@@ -25,7 +25,7 @@ const Projects = () => {
               imgPath={lift}
               isBlog={false}
               title="Global Search"
-              description=" project enables users to search for people globally and visualize their location on a digital globe through an animation with a pin. The project's success hinges on its ability to provide accurate and real-time location data, revolutionizing the way people interact and communicate worldwide. This feature has become a vital component of various applications worldwide, allowing users to track individuals' location and stay connected and informed."
+              description="The project is designed to enable users to search and locate people globally by displaying their location on a digital globe with an animated pin. The project's success lies in its ability to provide real-time and accurate location data, thus revolutionizing the way people interact and communicate worldwide. The ability to track individuals' location has become an integral feature of many applications worldwide, allowing users to stay connected and informed. With this project, users can easily track individuals' location and visualize their movements on a digital map, making it a powerful tool for various industries, including security, travel, and social networking. This project has paved the way for new possibilities in the global communication and location tracking industry."
               ghLink="https://github.com/19sajib/lift-buddy"
             />
           </Col>
@@ -35,7 +35,7 @@ const Projects = () => {
               imgPath={project}
               isBlog={false}
               title="DSA MidProject"
-              description="This project created a ReactJS website to implement sorting algorithms like bubble sort, merge sort, quick sort, and insertion sort. Users can input data and visualize the sorting process and compare time complexities based on input data size. The project aimed to educate users on the significance of algorithmic efficiency in practical applications. By demonstrating the practical applications of sorting algorithms, the project highlighted their impact on real-world scenarios."
+              description="This project developed a ReactJS website that implemented various sorting algorithms such as bubble sort, merge sort, quick sort, and insertion sort. The website allowed users to input data and observe the sorting process while comparing time complexities based on the size of the input data. The main objective of this project was to educate users on the importance of algorithmic efficiency in practical applications. By showcasing the practical applications of sorting algorithms, the project emphasized their impact on real-world scenarios. This project aimed to provide a platform for users to understand and appreciate the significance of sorting algorithms in solving real-world problems."
               ghLink="https://github.com/19sajib/social-media"
             />
           </Col>
@@ -45,7 +45,7 @@ const Projects = () => {
               imgPath={kickstart}
               isBlog={false}
               title="FYP Management System"
-              description="The project created a desktop-based application that utilized SQL for efficient database management of a department's student records, faculty information, course details, and attendance tracking. The console-based application provided an intuitive and user-friendly interface, streamlining data management for department staff. The project showcased the practical applications of database management, emphasizing its importance in real-world scenarios. By utilizing SQL for data storage, retrieval, and manipulation, the project highlighted the benefits of database management in the modern era."
+              description="The project involved the development of a desktop-based application that utilized SQL for efficient management of student records, faculty information, course details, and attendance tracking for a department. This console-based application provided an intuitive and user-friendly interface, which streamlined data management for department staff. Through this project, the practical applications of database management were showcased, emphasizing its significance in real-world scenarios. By utilizing SQL for data storage, retrieval, and manipulation, the project highlighted the numerous benefits of database management in the modern era, such as improved data security, easy data access, and efficient data manipulation."
               ghLink="https://github.com/19sajib/mern-stack-ecommerce"
             />
           </Col>

@@ -327,6 +327,7 @@ html {
     padding-top: 70px !important;
     /* background-image: var(--image-gradient), url('./assets/home-bg.jpg'); */
   }
+
   
   .home-about-description {
     color: white !important;
@@ -543,6 +544,8 @@ html {
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
 }
+
+
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
