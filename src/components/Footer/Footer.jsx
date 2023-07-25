@@ -15,7 +15,7 @@ const Footer = () => {
     return (
       <Container fluid className="footer">
         <Row>
-          <Col md="4" className="footer-copywright">
+          <Col md="4" className="footer-text">
             <span>Dedicated to creating impactful solutions!</span>
           </Col>
           <Col md="4" className="footer-copywright">

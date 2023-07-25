@@ -7,16 +7,17 @@ import {
   DiGit,
 } from "react-icons/di";
 import {
-  SiMaterialui,
-  SiGraphql,
-  SiSolidity,
+  SiAngularjs,
   SiRedux,
   SiMongodb,
-  SiHtml5
+  SiHtml5,
+  SiNestjs,
+  SiBootstrap
 } from "react-icons/si";
 
 import {SiSocketdotio} from 'react-icons/si'
 import {DiMsqlServer} from 'react-icons/di'
+import krypto from "../../assets/projects/krypto.png";
 
 const Techstack = () => {
   return (
@@ -46,10 +47,16 @@ const Techstack = () => {
         <SiSocketdotio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMaterialui />
+        <SiAngularjs/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNestjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
       </Col>
     </Row>
   );

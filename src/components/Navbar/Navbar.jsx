@@ -39,7 +39,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          Sami
+          Abdul Sami
           
         </Navbar.Brand>
         <Navbar.Toggle

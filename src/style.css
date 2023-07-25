@@ -91,6 +91,10 @@ html {
     padding: 0.3rem 2rem !important;
     font-size: 1.2rem !important;
   }
+
+  .ProjectCard{
+    background-color: transparent;
+  }
   
   .navbar-toggler {
     position: relative !important;
@@ -412,6 +416,17 @@ html {
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
+    
+  }
+
+  .footer-text{
+    display: flex;
+    text-align: left;
+  }
+
+  .footer-text span{
+    color: white;
+   font-size: 1.2rem;
   }
   .footer-copywright {
     display: flex;
@@ -427,7 +442,7 @@ html {
 
   .footer-body {
     z-index: 1;
-    text-align: center !important;
+    text-align: right !important;
   }
   
   @media (max-width: 767px) {
