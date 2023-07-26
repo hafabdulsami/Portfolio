@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
+
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import "./Contact.css";
@@ -8,8 +8,6 @@ import axios from 'axios';
 
 const Contact = () => {
   const form = useRef();
-  const [done, setDone] = useState(false);
-  const [notDone, setNotDone] = useState(false);
   const [formData, setFormData] = useState({
     from_name:"",
     reply_to:"",
@@ -21,11 +19,7 @@ const Contact = () => {
    var value = event.target.value;
     setFormData({ ...formData, [name]: value });
   }
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-    setDone(false);
-    setNotDone(false);
-  };
+ 
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -87,16 +81,11 @@ const Contact = () => {
               placeholder="Message"
               onChange={getUserData}
             />
-            <span className="not-done">
-              {notDone && "Please, fill all the input field"}
-            </span>
-            <Button type="submit" className="button" disabled={done}>
+           
+            <Button type="submit" className="button" >
               Send
             </Button>
-            <span className="done">
-              {done &&
-                "Thanks for contacting me and be sure i have recieved your mail. If you are testing this functionality then i am confirming this thing working perfectly fine. If you have any serious query then i will reply. Also if you need me, you can conatct me on Linkedin."}
-            </span>
+            
           </form>
         </Col>
       </Row>
