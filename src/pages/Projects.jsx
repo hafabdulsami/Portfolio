@@ -5,7 +5,6 @@ import Particle from "../components/Particle";
 import FYP from '../assets/projects/FYP.gif'
 import InstagramClone from '../assets/projects/InstagramClone.gif'
 import SortSprint from '../assets/projects/SortSprint.gif'
-import krypto from "../assets/projects/krypto.png";
 import WEBSTORE from '../assets/projects/WEBSTORE.gif'
 import AvatarVerse from "../assets/projects/Avatar Verse.gif"
 

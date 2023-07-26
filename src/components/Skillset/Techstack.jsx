@@ -17,7 +17,7 @@ import {
 
 import {SiSocketdotio} from 'react-icons/si'
 import {DiMsqlServer} from 'react-icons/di'
-import krypto from "../../assets/projects/krypto.png";
+
 
 const Techstack = () => {
   return (
