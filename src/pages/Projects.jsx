@@ -20,7 +20,7 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col xs={4} md={3} className="tech-icons">
+          <Col xs={6} md={4} className="tech-icons">
             <ProjectCard
               URL ="https://github.com/hafabdulsami/avatarVerse"
               className = "ProjectCard"
@@ -32,7 +32,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col xs={4} md={3} className="tech-icons">
+          <Col xs={6} md={4} className="tech-icons">
             <ProjectCard
               URL = "https://github.com/hafabdulsami/sorting-project-react-js-"
               imgPath={SortSprint}
@@ -43,7 +43,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col xs={4} md={3} className="tech-icons">
+          <Col xs={6} md={4} className="tech-icons">
             <ProjectCard
               URL = "https://github.com/hafabdulsami/instagram"
               imgPath={InstagramClone}
@@ -54,7 +54,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col xs={4} md={3} className="tech-icons">
+          <Col xs={6} md={4} className="tech-icons">
             <ProjectCard
               URL = "https://github.com/hafabdulsami/WebStore"
               imgPath={WEBSTORE}
@@ -65,7 +65,7 @@ const Projects = () => {
             />
           </Col>
 
-          <Col xs={4} md={3} className="tech-icons">
+          <Col xs={6} md={4} className="tech-icons">
             <ProjectCard
               URL = "https://github.com/hafabdulsami/FYP-Management-System"
               imgPath={FYP}
