@@ -25,6 +25,7 @@ const Footer = () => {
                   href="https://github.com/hafabdulsami"
                   style={{ color: "white" }}
                   target="_blank" 
+                  className ="icon-colour"
                   rel="noopener noreferrer"
                   aria-label="github"
                 >
@@ -36,6 +37,7 @@ const Footer = () => {
                   href="https://www.hackerrank.com/abdulsami699"
                   style={{ color: "white" }}
                   target="_blank" 
+                  className ="icon-colour"
                   rel="noopener noreferrer"
                   aria-label="twitter"
                 >
@@ -47,6 +49,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/abdulsami-1411b6267"
                   style={{ color: "white" }}
                   target="_blank" 
+                  className ="icon-colour"
                   rel="noopener noreferrer"
                   aria-label="linkedin"
                 >

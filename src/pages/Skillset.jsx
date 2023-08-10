@@ -1,7 +1,5 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-
-import Particle from '../components/Particle'
 import Techstack from "../components/Skillset/Techstack";
 import Toolstack from "../components/Skillset/Toolstack";
 
@@ -9,7 +7,7 @@ import Toolstack from "../components/Skillset/Toolstack";
 const Skillset = () => {
   return (
     <Container fluid className="about-section">
-      <Particle />
+      
       <Container>
         <h1 className="project-heading">
           Professional <strong className="yellow">Skillset </strong>

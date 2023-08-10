@@ -14,7 +14,7 @@ html {
   }
   
   .yellow {
-    color: var(--imp-bold-text-color) !important;
+    color: #94539F !important;
   }
   
   .purple {
@@ -35,7 +35,7 @@ html {
     width: 100%;
     height: 100%;
     z-index: 999999;
-    background-color: #0c0513;
+    background-color: #E6E6FA;
     background-image: url(./assets/pre.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -60,7 +60,7 @@ html {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: #2d005c;
+    background: #E6E6FA;
   }
   
   /* Handle */
@@ -79,9 +79,9 @@ html {
   /* Navbar Section  */
   /* --------- */
   .sticky {
-    background-color: #38007731 !important;
+    background-color: #E6E6FA !important;
     transition: all 0.3s ease-out 0s !important;
-    box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+    box-shadow: 0px 10px 10px 0px #B8B8C8 !important;
     backdrop-filter: blur(15px) !important;
   }
   
@@ -104,7 +104,7 @@ html {
   
   .navbar-toggler span {
     display: block !important;
-    background-color: #7500fa !important;
+    background-color:#B8B8C8 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -158,7 +158,7 @@ html {
     }
   }
   .navbar-brand {
-    color: rgb(250, 250, 250) !important;
+    color: black !important;
   }
   
   .logo {
@@ -167,7 +167,7 @@ html {
   }
   
   .navbar-nav .nav-link {
-    color: white !important;
+    color: black !important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
   }
@@ -201,7 +201,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #6e00fd;
+    background: #94539F;
     bottom: 1px;
     left: 0;
     z-index: -1;
@@ -264,7 +264,6 @@ html {
   .home-section {
     position: relative;
     z-index: -1;
-    background-image: var(--image-gradient), url(./assets/home-bg.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     padding-bottom: 30px !important;
@@ -273,7 +272,7 @@ html {
   
   .home-content {
     padding: 9rem 0 2rem !important;
-    color: whitesmoke;
+    color: black;
     text-align: left;
   }
   
@@ -288,18 +287,18 @@ html {
   }
   
   .main-name {
-    color: #7500fa;
+    color: #B968C7;
   }
   
   .Typewriter__wrapper {
     font-size: 2.2em !important;
-    color: #7500fa!important;
+    color:#B968C7  !important;
     /* color: #be6adf !important; */
     font-weight: 600 !important;
   }
   .Typewriter__cursor {
     font-size: 2.4em !important;
-    color: #7500fa !important;
+    color:  #B8B8C8 !important;
   }
   
   @media (max-width: 767px) {
@@ -334,7 +333,7 @@ html {
 
   
   .home-about-description {
-    color: white !important;
+    color: black ;
     padding-top: 100px !important;
     padding-bottom: 20px !important;
     text-align: center;
@@ -349,7 +348,7 @@ html {
   .home-about-social {
     text-align: center !important;
     padding-top: 25px;
-    color: white !important;
+    color: black !important;
   }
   
   .home-about-social-links {
@@ -368,7 +367,7 @@ html {
     text-align: center !important;
     font-size: 1.2em !important;
     line-height: 2em !important;
-    background: rgba(110, 110, 110, 0.972) !important;
+    background:#C7C7D5 !important;
     border-radius: 50% !important;
     transition: 0.5s !important;
   }
@@ -381,7 +380,7 @@ html {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: #e9fa00;
+    background: #94539F;
     transition: 0.5s;
     transform: scale(0.9);
     z-index: -1;
@@ -389,13 +388,13 @@ html {
   
   .home-social-icons:hover::before {
     transform: scale(1.1);
-    box-shadow: 0 0 15px #fdf902;
+    box-shadow: 0 0 15px #94539F;
   }
   
   .home-social-icons:hover {
-    color: #e5ff00;
-    box-shadow: 0 0 5px #fdf901;
-    text-shadow: 0 0 2px #fcf802;
+    color: #94539F;
+    box-shadow: 0 0 5px #94539F;
+    text-shadow: 0 0 2px #94539F;
   }
   
   .social-icons {
@@ -405,14 +404,14 @@ html {
   }
   
   .icon-colour {
-    color: #e6ff01 !important;
+    color: #94539F !important;
   }
   
   /* --------- */
   /* Footer */
   /* --------- */
   .footer {
-    background-color: rgb(1, 6, 36);
+    background-color: #E6E6FA;
     bottom: 0 !important;
     padding-top: 10px !important;
     padding-bottom: 8px !important ;
@@ -425,7 +424,7 @@ html {
   }
 
   .footer-text span{
-    color: white;
+    color: black;
    font-size: 1.2rem;
   }
   .footer-copywright {
@@ -436,7 +435,7 @@ html {
   }
   
   .footer-copywright span {
-   color: white;
+   color: black;
    font-size: 1.2rem;
   }
 
@@ -457,7 +456,7 @@ html {
   
   .footer h3 {
     font-size: 1em;
-    color: white !important;
+    color: black !important;
     margin-top: 0.5em !important;
     margin-bottom: 0.5em !important;
   }
@@ -478,8 +477,7 @@ html {
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
-    color: white !important;
+    color: black !important;
   }
   
   .tech-icons {
@@ -487,12 +485,12 @@ html {
     margin: 15px !important;
     padding: 10px !important;
     opacity: 0.93 !important;
-    border: 1.7px solid rgb(89, 0, 190) !important;
+    border: 1.7px solid #94539F !important;
     vertical-align: middle !important;
     text-align: center !important;
     border-radius: 5px !important;
     display: table !important;
-    box-shadow: 4px 5px 4px 3px rgba(117, 0, 250, 0.37) !important;
+    box-shadow: 4px 5px 4px 3px #94539F !important;
     overflow: hidden !important;
     transition: all 0.4s ease 0s !important;
   }
@@ -506,7 +504,7 @@ html {
   .tech-icons:hover {
     transform: scale(1.05) !important;
     overflow: hidden !important;
-    border: 2.2px solid rgba(117, 0, 250, 1) !important;
+    border: 2.2px solid #94539F !important;
   }
   .tech-icon-images {
     padding: 20px !important;
@@ -515,7 +513,7 @@ html {
   
   .quote-card-view {
     border: none !important;
-    color: white !important;
+    color: black !important;
     background-color: transparent !important;
   }
   
@@ -539,7 +537,7 @@ html {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  background-color: #E6E6FA !important;
 }
 
 .project-card {
@@ -613,17 +611,17 @@ html {
 
 .btn-primary {
   /* color: #fff !important; */
-  color: rgb(24, 2, 44) !important;
-  background-color: #7500fa !important;
-  border-color: #7500fa !important;
+  color: white !important;
+  background-color: #94539F !important;
+  border-color:#94539F !important;
   /* background-color: #623686 !important;
   border-color: #623686 !important; */
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #7500fa !important;
-  border-color: #7500fa !important;
+  background-color: #94539F !important;
+  border-color: #94539F !important;
   /* background-color: #6d20c5d7 !important;
   border-color: #6d20c5d7 !important; */
 }
@@ -632,7 +630,7 @@ html {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: black !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -647,8 +645,7 @@ html {
     position: relative !important;
     padding-top: 110px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
-    color: white !important;
+    color: black !important;
   }
   
   .resume {

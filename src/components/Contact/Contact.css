@@ -10,7 +10,7 @@
 .c-left{
     text-align: center !important;
     padding-top: 25px;
-    color: white !important;
+    color: black !important;
 }
 
 .c-right{
@@ -29,19 +29,23 @@
     
 }
 
+.edit{
+    color: #E6E6FA !important;   
+}
+
 .c-right .user{
     width: 24rem;
     height: 3rem;
     padding: 0.3em;
     outline: none;
-    border: 2px solid #40008a;
+    border: 2px solid #94539F;
     border-radius: 8px;
     font-size: 19px;
-    color: white   
+    color:black;   
 }
 
 .c-right .user:hover{
-    box-shadow: 0 0 9px #7500fa;
+    box-shadow: 0 0 9px #94539F;
 }
 
 input{

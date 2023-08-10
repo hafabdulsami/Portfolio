@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
-
-import Particle from '../components/Particle'
 import pdf from "../assets/AbdulSami.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
@@ -24,7 +22,7 @@ const Resume = () => {
   return (
     <div>
       <Container fluid className="resume-section">
-        <Particle />
+        
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"

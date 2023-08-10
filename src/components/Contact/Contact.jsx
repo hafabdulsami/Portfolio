@@ -82,7 +82,7 @@ const Contact = () => {
               onChange={getUserData}
             />
            
-            <Button type="submit" className="button" >
+            <Button type="submit" className="edit" >
               Send
             </Button>
             
