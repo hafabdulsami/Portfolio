@@ -151,7 +151,7 @@ html {
     .navbar {
       padding: 1rem 2rem !important;
       font-size: 1.4rem !important;
-      background-color: #181a27 !important;
+      background-color: #e6e6fa !important;
     }
     .navbar-nav .nav-item a::after {
       display: none !important;
@@ -201,7 +201,7 @@ html {
     height: 5px;
     width: 0;
     border-radius: 16px;
-    background: #94539F;
+    background: #e6e6fa;
     bottom: 1px;
     left: 0;
     z-index: -1;
